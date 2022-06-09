@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryColor : #23C4ED;
+    --secondaryColor : #2827CC;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;800&display=swap');
+
+body{
+    background: linear-gradient(90deg ,var(--primaryColor), var(--secondaryColor));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.container h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+span{
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container p{
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
